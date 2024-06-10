@@ -11,17 +11,13 @@ All APIs by default, run on port 8080. All projects has same endpoints and has a
 This endpoint receives a JSON with the following structure:
 ```json
 {
-  "text": "string"
+  "content": "string"
 }
 ```
 And returns a JSON with the following structure:
 ```json
 {
-  "results": [
-    {
-      "shift": "int",
-      "text": "string"
-    }
-  ]
+  "shift": "number",
+  "text": "string"
 }
 ```
