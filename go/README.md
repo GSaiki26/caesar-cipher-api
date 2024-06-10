@@ -1,5 +1,5 @@
 # Go Caesar Cipher
-[![Go Docker build](https://github.com/GSaiki26/go-caesar-cipher/actions/workflows/go_docker_build.yaml/badge.svg)](https://github.com/GSaiki26/go-caesar-cipher/actions/workflows/go_docker_build.yaml) [![Go Tests](https://github.com/GSaiki26/go-caesar-cipher/actions/workflows/go_tests.yaml/badge.svg)](https://github.com/GSaiki26/go-caesar-cipher/actions/workflows/go_tests.yaml)
+[![Go Docker build](https://github.com/GSaiki26/caesar-cipher-api/actions/workflows/go_docker_build.yaml/badge.svg)](https://github.com/GSaiki26/caesar-cipher-api/actions/workflows/go_docker_build.yaml) [![Go Tests](https://github.com/GSaiki26/caesar-cipher-api/actions/workflows/go_tests.yaml/badge.svg)](https://github.com/GSaiki26/caesar-cipher-api/actions/workflows/go_tests.yaml)
 
 The GO Caesar Cipher is a simple API that receives a text and returns all the possible shifts of the Caesar Cipher.
 

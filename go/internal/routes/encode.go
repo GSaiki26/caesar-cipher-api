@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/GSaiki26/go-caesar-cipher/internal/utils"
+	"github.com/GSaiki26/caesar-cipher-api/internal/utils"
 )
 
 // Structs
