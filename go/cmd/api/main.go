@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/GSaiki26/go-caesar-cipher/internal/routes"
+	"github.com/GSaiki26/caesar-cipher-api/internal/routes"
 )
 
 // Data
