@@ -1,5 +1,5 @@
 // Libs
-package main
+package utils
 
 import "strings"
 
