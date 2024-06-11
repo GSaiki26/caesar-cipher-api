@@ -1,0 +1,27 @@
+[package]
+name = "rust-caesar-cipher"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "api"
+path = "./src/main.rs"
+
+[dependencies]
+axum = { version = "0.7.5", default-features = true, features = [
+    "http1",
+    "http2",
+    "json",
+    "tokio",
+] }
+serde = { version = "1.0.203", default-features = false, features = ["derive"] }
+tokio = { version = "1.38.0", default-features = false, features = [
+    "macros",
+    "rt-multi-thread",
+] }
+tracing = { version = "0.1.40", default-features = false }
+tracing-subscriber = { version = "0.3.18", default-features = false, features = [
+    "ansi",
+    "fmt",
+    "env-filter",
+] }
