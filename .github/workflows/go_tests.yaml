@@ -20,5 +20,5 @@ jobs:
         with:
           go-version: ${{ matrix.version }}
 
-      - name: Run the cargo test
+      - name: Run the test
         run: cd go; go test ./...
